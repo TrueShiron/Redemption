@@ -195,7 +195,7 @@ c "…and to be completely honest, a part of me always hoped that we would soone
 
 c "However then the flare happened and both of my degrees became mostly useless."
 
-Mv "I wouldn’t say that. Without those degrees, your people would have chosen someone else as you species’ ambassador. Maybe even someone who would have made things worse."
+Mv "I wouldn’t say that. Without those degrees, your people would have chosen someone else as your species’ ambassador. Maybe even someone who would have made things worse."
 
 c "I guess you’re right. Even though I wasn’t the first to come here, I'm now more or less living my dream… well, except for the whole Reza case."
 
