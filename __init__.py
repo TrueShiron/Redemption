@@ -7,7 +7,7 @@ class AWSWMod(Mod):
     name = "Redemption"
     version = "1.2"
     author = "Shiron"
-    dependencies = ["MagmaLink", "A Solitary Mind", "!The Reckless Criminal"]
+    dependencies = ["MagmaLink", "A Solitary Mind", "!The Reckless Criminal", "!Premonition"]
 
     def mod_load(self):
         ml.find_label("quest6") \
