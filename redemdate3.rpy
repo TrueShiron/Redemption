@@ -962,7 +962,7 @@ Mv normal flip "I always enjoyed those trips. It was just the two of us in the w
 
 c "I really like the sound of it. The view must have been amazing."
 
-Mv "It was and I kind of want to do it again. The last few days made me realize that it might be time to revive some old habits. Life it too short and you never know what might happen."
+Mv "It was and I kind of want to do it again. The last few days made me realize that it might be time to revive some old habits. Life is too short and you never know what might happen."
 
 m "I wasn’t sure what he was talking about but he was right. The flare had taught me the same lesson."
 
