@@ -99,7 +99,7 @@ c "Do you think it’s a good idea to meet here? I thought you wanted our meetin
 
 Mv "That won’t be a problem. Sebastian already knows about it and agreed to keep it a secret. Bryce is most likely at Zhong’s bar at this time."
 
-if brycestatus == "bad" or brycebar == "False":
+if brycestatus == "bad" or bryce1unplayed == True:
 
     pass
 
