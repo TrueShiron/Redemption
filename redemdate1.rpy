@@ -136,7 +136,7 @@ m "Since this wasn’t going the way I hoped it was, I decided that it was time 
 
 m "He wasn’t wrong after all, there was more about my mission and maybe the truth could help him understand."
 
-c "You are right, there is more to my mission but if if your council would know about it, they could abuse that knowledge. " 
+c "You are right, there is more to my mission but if your council would know about it, they could abuse that knowledge. " 
 
 m "Maverick seemed to calm down a little and looked at me, his expression not showing any discernible emotion. "
 
