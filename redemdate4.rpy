@@ -1137,7 +1137,7 @@ Mv rehappy flip "You might not have the technology anymore but today you can fly
 
 m "I was surprised that, despite the size of the backpack, it was mostly empty. It seems the few things we had for breakfast were the only items Maverick brought with him."
 
-m "Quickly and carefully Maverick changed the backpack into some sort of saddle. It a hole on each side for the legs and even something similar to a safety harness. He really thought of everything to make sure I was safe. "
+m "Quickly and carefully Maverick changed the backpack into some sort of saddle. It had a hole on each side for the legs and even something similar to a safety harness. He really thought of everything to make sure I was safe. "
 
 Mv normal flip "I once offered Anna to accompany Miles and me to our trip. She’s of course way too big for this, and it would have needed both Miles and me to carry her, but sadly Anna refused."
 
