@@ -77,7 +77,13 @@ window hide
 nvl clear
 window show
 
-n "I tried ignore it, forcing myself back to the emptiness and my memories of [maverick_redem_romance_partner] and my other friends but it only caused the beeping sounds to become longer, like an endless sound. A painful shock went through my whole body and suddenly, the noise changed back to the short beeping sounds. When I tried to do it a second time the result was the same."
+if maverick_redem_noromance == True:
+
+    n "I tried ignore it, forcing myself back to the emptiness and my memories of my friends but it only caused the beeping sounds to become longer, like an endless sound. A painful shock went through my whole body and suddenly, the noise changed back to the short beeping sounds. When I tried to do it a second time the result was the same."
+
+else:
+
+    n "I tried ignore it, forcing myself back to the emptiness and my memories of [maverick_redem_romance_partner] and my other friends but it only caused the beeping sounds to become longer, like an endless sound. A painful shock went through my whole body and suddenly, the noise changed back to the short beeping sounds. When I tried to do it a second time the result was the same."
 
 n "It seems there was no way to escape the noise so I started to accept it. Slowly the pain went away and after some time it felt as if I was lying on a cloud. Calming warmth came from my side and grabbed my hand. Suddenly, if felt as if the emptiness around me was taken over by light."
 
