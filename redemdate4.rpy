@@ -1237,7 +1237,7 @@ scene redem_hike_end with dissolvemed
 
 play music "mx/basicguitar2.ogg" fadein 2.0
 
-m "It was surreal how quiet it was up here and the few was breathtaking. By now the sun was slowly going down and we were able to see a beautiful sunset."
+m "It was surreal how quiet it was up here and the view was breathtaking. By now the sun was slowly going down and we were able to see a beautiful sunset."
 
 Mv rehappy flip "That… was way more exhausting that I thought… but it was worth it, don’t you agree?"
 
