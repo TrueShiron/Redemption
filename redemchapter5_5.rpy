@@ -92,9 +92,14 @@ n "Powerful claws grabbed and lifted me out of the cold darkness back into the w
 
 window hide
 nvl clear
+
+stop music fadeout 1.5
+
 scene black with dissolvemed
 
-$ renpy.pause (0.5)
+
+
+$ renpy.pause (1.5)
 
 scene redem_hospital_a with dissolvemed
 
@@ -103,6 +108,8 @@ play music "mx/eveningmelody.ogg" fadein 2.0
 m "Slowly I opened my eyes and found myself in an unknown environment. It took me a few seconds to realize that I was lying on a bed."
 
 show anna normal b at right with dissolve
+
+$renpy.pause (1.0)
 
 An smirk b "Well, look who is back. Good morning, squishy."
 
@@ -191,7 +198,7 @@ An smirk b "Oh, you don’t like tails? They are pretty useful and you could use
 
 c "Anna…"
 
-An normal b "Ok, ok. Well, you had lost a lot of blood and obviously we didn’t have any banked human blood."
+An normal b "Okay, okay. Well, you had lost a lot of blood and obviously we didn’t have any banked human blood."
 
 
 if blood == False:
@@ -269,7 +276,7 @@ An "Yeah, not even they are stupid enough to ignore a possible mass extinction e
 
 m "Anna avoided her gaze as if she wasn’t sure how to continue. When she looked at me again she seemed unsure."
 
-An smirk b "There also was another interesting information on your PDA."
+An smirk b "There also was another interesting bit of information on your PDA."
 
 c "What do you mean?"
 
@@ -328,7 +335,7 @@ if maverick_redem_annaromance == True:
 
     An normal b "For Maverick there wasn’t. Not at that point of Miles’ sickness. If the doctors wouldn’t have messed up, then Miles could still be alive but the medication was wrong."
 
-    An "Miles was already lost when they found him. Killing him was an act of mercy, as cruel as it sounds. With all our technology, there was no for us to bring him back after his brain had degenerated that far."
+    An "Miles was already lost when they found him. Killing him was an act of mercy, as cruel as it sounds. With all our technology, there was no way for us to bring him back after his brain had degenerated that far."
 
     c "Maverick told me that they had developed a cure for the sickness by now."
 
@@ -389,27 +396,37 @@ if maverick_redem_annaromance == True:
 
     An normal b "Seems as if politicians are assholes in every world."
 
-    m "With a smile on her lips she moved her had closer to me."
+    m "With a smile on her lips she moved her head closer to me."
 
     An smirk b "Then I can have you all for myself, [player_name]."
 
     c "I wouldn’t want it any other way, Anna."
 
-    m "Suddenly someone knocked on the door and Anna moved her head back, giving the door a deadly glare. So close and yet so far away from her…"
+    $ renpy.pause (1.0)
 
     play sound "fx/knocking1.ogg"
+    
+    show anna disgust b with dissolve
+    
+    m "Suddenly someone knocked on the door and Anna moved her head back, giving the door a deadly glare. So close and yet so far away from her…"
 
     $ renpy.pause (1.0)
 
-    m "Maverick opened the door and entered the room. As happy as I was to see him, I was still a little mad at his timing. I just hoped he didn’t see anything but my hopes where crushed when he looked at Anna and me."
+    play sound "fx/door/door_open.wav"
+    
+    $renpy.pause(2.0)
+    
+    show maverick rehappy flip at Position (xpos = 0.1) with easeinleft
+    
+    $ renpy.pause (1.0)
 
-    show maverick rehappy flip at Position (xpos = 0.1) with dissolve
+    m "Maverick opened the door and entered the room. As happy as I was to see him, I was still a little mad at his timing. I just hoped he didn’t see anything but my hopes where crushed when he looked at Anna and me."
 
     Mv laugh flip "I hope I’m not interrupting something."
 
     An smirk b "Actually, you are but I’ll let it pass this time since you helped to save [player_name]."
 
-    m "I felt my face turning red again and Maverick starting to laugh when Anna was giving me a kiss on the check didn’t help either."
+    m "I felt my face turning red again and Maverick started to laugh when Anna was giving me a kiss on the check didn’t help either."
 
     play sound "fx/kiss.wav"
 
@@ -423,9 +440,11 @@ else:
 
     $ renpy.pause (1.0)
 
+    show anna disgust b with dissolve
+
     m "Suddenly someone knocked on the door and Anna and I looked at the door."
 
-    m "Maverick opened the door and entered the room. It was good to see that he was doing well depite his second injury since Reza had appeared here."
+    m "Maverick opened the door and entered the room. It was good to see that he was doing well despite his second injury since Reza had appeared here."
 
     show maverick rehappy flip at Position (xpos = 0.1) with dissolve
 
@@ -435,17 +454,17 @@ Mv rehappy flip "[player_name], I’m glad you’re finally awake. "
 
 $ renpy.pause(0.4)
 
-play sound "fx/door/handle.wav"
+play sound "fx/door/door_close.ogg"
 
 $ renpy.pause(1.0)
 
 m "Maverick closed the door and sat down next to Anna and my bed. It didn’t take a genius to notice that he felt bad for what happened at the facility."
 
-Mv "I was worried sick the whole time. I saw how you…"
+Mv normal flip "I was worried sick the whole time. I saw how you…"
 
-Mv reshock flip "Damn it, I saw you die when they brought you here. "
+Mv reshock flip "Damn it, I saw you die when they brought you here! "
 
-Mv "If I’d been more careful you might have never got hurt but instead I almost got you killed."
+Mv "If I’d been more careful you might have never got hurt but instead I messed everything up!"
 
 m "I’ve never seen Maverick like that and took his hand to calm him down. Even Anna was there to comfort him. Despite everything that happened between them, they still cared for and helped each other."
 
@@ -463,7 +482,7 @@ m "Each decision I made had brought us here and I really hoped that I’d never 
 
 m "It also made me realize how important it was to trust my feelings even if I kind of betrayed Bryce’s and Maverick’s trust when I made a copy of the map without asking them."
 
-m "(The next time we’re out drinking I’ll have to buy the drinks for us as an apology.)"
+c "(The next time we’re out drinking I’ll have to buy the drinks for us as an apology.)"
 
 c "You know, I guess you were right about Reza; everything that happened since the solar flare had broken him. He was nothing more than a shadow of who he once was. "
 
@@ -780,7 +799,7 @@ Br sad b "When we arrived at the crime scene… I’m glad you’re alive. "
 
 c "I’m sorry for worrying you. We would have called for backup but when the fireworks started, we realized that that was the perfect time for Reza to make his move, and we didn't want to waste any time."
 
-Br normal b "If you were working for me, I would I have to give you a stern official warning for confronting Reza without backup, but given everything we’ve learned, you two have saved the world."
+Br normal b "If you were working for me, I would have to give you a stern official warning for confronting Reza without backup, but given everything we’ve learned, you two have saved the world."
 
 Br "You even managed to get Sebastian out of harm's way. "
 
@@ -856,7 +875,7 @@ if naomiscenesfinished != 4:
 
     m "While Maverick and I were on our way home, I saw Naomi flying in the sky. I haven’t talked to her since our diving trip."
 
-    m "Naomi  must have noticed us after a while and soon she landed next to Maverick and I."
+    m "Naomi must have noticed us after a while and soon she landed next to Maverick and I."
 
     play sound "fx/flapx.ogg"        
 
@@ -1288,7 +1307,7 @@ c "I’m sure you saved my life by interrupting us."
 
 Mv "Even then I shouldn't have attacked you."
 
-c "You just got shot by a Reza and it's only natural to think that there was a chance that I was the same as him."
+c "You just got shot by Reza and it's only natural to think that there was a chance that I was the same as him."
 
 Mv rehappy flip "Luckily you decided to talk to me despite my behavior."
 
@@ -1505,7 +1524,7 @@ if persistent.evilending == True:
 
     c "Thank you, Mav. At least this might explain why you had a feeling that I could be the same as Reza. A part of you remembered that asshole version of me."
 
-    As "You shouldn’t worry about that. In all the timelines I’ve seen, we never acted like that except of that one timeline."
+    As "You shouldn’t worry about that. In all the timelines I’ve seen, we never acted like that except for that one timeline."
 
     As "We might never know why that one version of us went that way or what happened in his past but so far it was only one for many timelines I visited."
 
@@ -1664,6 +1683,8 @@ if maverick_redem_maverickromance == True:
 
     $ renpy.pause (0.5)
 
+    $ persistent.redem_mavgoodending = True
+
     jump ml_main_menu
 
 
@@ -1693,6 +1714,8 @@ elif maverick_redem_noromance == True:
 
     $ renpy.pause (0.5)
 
+    $ persistent.redem_mavgoodending = True
+
     jump ml_main_menu
 
 
@@ -1720,5 +1743,7 @@ else:
     nvl clear
 
     $ renpy.pause (0.5)
+
+    $ persistent.redem_mavgoodending = True
 
     jump ml_main_menu
