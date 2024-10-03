@@ -939,7 +939,7 @@ if maverick_redem_maverickromance == True:
             $ renpy.pause (0.5)
 
             $ maverick_redem_maverick_accept = True
-
+            
             jump redemdate4_flying
 
 
@@ -1121,7 +1121,7 @@ Mv reblush flip "Well, promise me that you won’t laugh, but I actually did."
 
 Mv normal flip "It was a few months ago when I was helping with a problem at the orphanage. Nothing big, just a broken window after a storm but that’s also part of the job."
 
-Mv "I always has a soft spot for hatchlings and when this little girl, I think her name was Amely, asked me about flying and letting her ride on my back I wasn’t able to say no. "
+Mv "I always had a soft spot for hatchlings and when this little girl, I think her name was Amely, asked me about flying and letting her ride on my back I wasn’t able to say no. "
 
 c "I never knew you were such a softie Mav. I’m sure you’ll make a great father one day."
 
@@ -1129,7 +1129,7 @@ Mv "Maybe but I’m still too young to think about children."
 
 Mv "However, when I was preparing for the hike I rented this backpack. It comes with some extras like being able to be used as a saddle."
 
-Mv laugh flip "You’d be surprised how often younger or smaller dragons are carried by flyers like me. Especially for families were one parent is a flyer and the other isn’t."
+Mv laugh flip "You’d be surprised how often younger or smaller dragons are carried by flyers like me. Especially for families where one parent is a flyer and the other isn’t."
 
 c "I think that’s a good system for your people. Flying was always one of mankind’s dreams."
 
@@ -1137,7 +1137,7 @@ Mv rehappy flip "You might not have the technology anymore but today you can fly
 
 m "I was surprised that, despite the size of the backpack, it was mostly empty. It seems the few things we had for breakfast were the only items Maverick brought with him."
 
-m "Quickly and carefully Maverick changed the backpack into some sort of saddle. It had a hole on each side for the legs and even something similar to a safety harness. He really thought of everything to make sure I was safe. "
+m "Quickly and carefully Maverick changed the backpack into some sort of saddle. It has a hole on each side for the legs and even something similar to a safety harness. He really thought of everything to make sure I was safe. "
 
 Mv normal flip "I once offered Anna to accompany Miles and me to our trip. She’s of course way too big for this, and it would have needed both Miles and me to carry her, but sadly Anna refused."
 
@@ -1339,7 +1339,7 @@ if maverick_redem_adineromance == True:
 
     Ad "My offer for the festival still stands. Just give me a call if you’re free."
 
-    Ad normal c "I’m sorry to leave already but I need to finish my deliveries now. It was nice meeting you two.  Bye"
+    Ad normal c "I’m sorry to leave already but I need to finish my deliveries now. It was nice meeting you two. Bye!"
 
     c "See you, Adine."
 
@@ -1639,7 +1639,7 @@ hide maverick rehappy at left with easeoutleft
 
 stop music fadeout 2.0
 
-$ maverick_redem_scenesfinished += 1
+$ maverickscenesfinished += 1
 
 
 if adine3unplayed == False and adine4unplayed == True:
@@ -1676,23 +1676,11 @@ else:
     pass
 
 
+if maverick_redem_maverickromance == True :
+    $ maverickstatus = "good"
+else :
+    $maverickstatus = "normal"
+
+# Repeat of the "if romance then impressed, if not then good" if branch from date 3 - Nyxondra
+
 jump ml_date_end
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
