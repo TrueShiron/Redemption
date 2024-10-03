@@ -272,6 +272,8 @@ m "Then he left without another word and I was left alone. As I was making my wa
 
 stop music fadeout 2.0
 
-$ maverick_redem_scenesfinished += 1
+$ maverickstatus = "none"
+
+$ maverickscenesfinished += 1
 
 jump ml_date_end
