@@ -11,6 +11,8 @@ hide sebastian with easeoutright
 
 show sebastian normal b flip at left with easeinleft
 
+$maverickstatus = "none"
+
 m "Before he was leaving, Maverick looked me in the eyes. Even if it was for just a second, I noticed that there wasn’t any anger in his look anymore."
 
 m "Luckily neither Bryce nor Sebastian noticed anything when Maverick finally left."
