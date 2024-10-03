@@ -180,4 +180,4 @@ class AWSWMod(Mod):
         pass
 
 # This file is free software under the GPLv3 license
-# Thanks to Nyxondra for adding the new status, Maverick appearing on the main screen and helping with fixing all the errors and bugs of the mod
+# Thanks you Nyxondra for adding the new status, Maverick appearing on the main screen and helping me with fix all the errors and bugs of the mod
