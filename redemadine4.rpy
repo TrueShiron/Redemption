@@ -84,6 +84,8 @@ m "While I had failed to convince her, at least I could say that I had tried my 
 
 m "All I could do now was hoping that she wouldn't have another accident."
 
+$redemadine4unplayed = False
+
 $ adinestatus = "abandoned"
 
 jump ml_date_end
