@@ -434,6 +434,8 @@ menu:
 
         $ maverick_redem_maverickromance = True
 
+        $ maverickstatus = "good"
+
         $ maverick_redem_romance_partner = "Maverick"
 
         jump redemdate3C
@@ -454,7 +456,7 @@ menu:
 
         Mv "Being a celebrity isn’t easy."
 
-        c "That’s true but luckily all dragons I met so far don’t go crazy about that. Sure, Adine loves humans, especially that sitcom, but she doesn’t go all crazy about it." 
+        c "That’s true but luckily most dragons I met so far don’t seem to care that much. Sure, Adine loves humans, especially that sitcom, but she doesn’t go all crazy about it." 
 
         Mv "Yeah, crazy fans are always a problem. Not in our town luckily but I heard about some cases in the cities."
 
@@ -517,7 +519,7 @@ menu:
 
         c "Yes. I hope you don’t mind because of what was between the two of you."
 
-        Mv "Don’t worry; I don’t have any romantic feeling for her anymore. After we broke up, we both changed and became different dragons."
+        Mv "Don’t worry; I don’t have any romantic feelings for her anymore. After we broke up, we both changed and became different dragons."
 
         Mv "I don't know if we'd even have a chance if we'd try again. Sometimes it's better to enjoy the memories and move on."
 
@@ -525,7 +527,7 @@ menu:
 
         Mv "You want to know why we have broken up?"
 
-        c "If that’s ok with you."
+        c "If that’s okay with you."
 
         m "Maverick closed his eyes as if it was difficult for him to talk about it. However, before I was able to tell him that he didn’t need to tell me, he opened his eyes again and looked at me."
 
@@ -571,7 +573,7 @@ menu:
 
         Mv "It was only once and, in her defense, she didn’t aim directly at me."
 
-        c "OK, I’ll remember to never piss Anna off."
+        c "Okay, I’ll remember to never piss Anna off."
 
         Mv laugh flip "That might be the best for all of us. I'm running out of places to hide the bodies."
 
@@ -579,7 +581,7 @@ menu:
 
         Mv "However, if you’re be lucky enough to gain her trust, then you’ll see that she’s actually a nice and caring woman. Just don’t make the same mistake as me and let work get in your way."
 
-        c "If there a chance to be with her, then I’ll try my best to not mess it."
+        c "If there a chance to be with her, then I’ll try my best to not mess it up."
 
         Mv "That’s the spirit. She really needs some happiness in her life."
 
@@ -612,7 +614,7 @@ menu:
 
         c "It’s ok, I’ve learned to live with that but… well, some days are harder than others."
 
-        Mv "That’s true. Every one of us has different a way to deal with that kind of stuff."
+        Mv "That’s true. Every one of us has a different way to deal with that kind of stuff."
 
         Mv "For me it’s focusing almost all my time on work. After Anna, work has become my life and without our annual BBQ or our weekly {i}team building activity{/i}, as Bryce calls it, I’d most likely be like Anna; working nonstop."
 
@@ -779,7 +781,7 @@ menu:
 
         Mv resideeye flip "No, but because of my job I’ve talked to people who lost their loved ones and after what we did with Amelia’s body…"
 
-        Mv normal flip "…Maybe we didn’t search long enough for her dependants. Knowing how it feels like, I tried to offer him help but he refused."
+        Mv normal flip "…Maybe we didn’t search long enough for her dependents. Knowing how it feels like, I tried to offer him help but he refused."
 
         c "Yeah, Remy has some difficulties talking about his personal problems but I hope I was able to help him a little." 
 
@@ -863,7 +865,7 @@ c "At least the first victim was able to wound him."
 
 Mv "Do you think his prosthesis gives him advantage over dragons?"
 
-c "No, his right arm might be stronger but you get the same result by training with dumbells long enough. At most it could allow him to use his arm even when it’s badly wounded."
+c "No, his right arm might be stronger but you get the same result by training with dumbbells long enough. At most it could allow him to use his arm even when it’s badly wounded."
 
 Mv "I see. Did you find any hidden messages?"
 
@@ -1014,30 +1016,13 @@ Mv rehappy flip "Don’t worry, that’s what friends do."
 
 stop music fadeout 2.0
 
-$ maverick_redem_scenesfinished += 1
+$ maverickscenesfinished += 1
+    
+if maverick_redem_maverickromance == True :
+    $ maverickstatus = "good"
+else :
+    $ maverickstatus = "normal"
+
+# This if statement above is to decide whether he's impressed (romancing Mav) or just good with you (no romance/romancing someone else), this basically replaces the whole status screen gimmick of magmalink with something really simple. - Nyxondra
 
 jump ml_date_end
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
