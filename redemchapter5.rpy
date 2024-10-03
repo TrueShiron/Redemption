@@ -1458,6 +1458,8 @@ s "I'm sure you can do better."
 
 $ renpy.pause (1.0)
 
+$ persistent.redem_mavbadending = True
+
 jump ml_main_menu
 
 
@@ -1627,6 +1629,7 @@ s "I'm sure you can do it."
 
 $ renpy.pause (1.0)
 
+$ persistent.redem_mavbadending = True
 
 jump ml_main_menu
 
@@ -1955,5 +1958,7 @@ s "Did you try to fail on purpose? Maybe you should try again."
 s "I'm sure you can do better."
 
 $ renpy.pause (1.0)
+
+$ persistent.redem_mavbadending = True
 
 jump ml_main_menu
