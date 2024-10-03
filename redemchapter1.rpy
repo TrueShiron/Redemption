@@ -1,3 +1,16 @@
+label redem_meetmaverick :
+$persistent.maverickmet = True
+$maverickscenesfinished = 0
+jump redem_meetmaverick_return
+
+
+label redem_chapter1moodchange :
+$ maverickstatus = "bad"
+jump redem_chapter1moodchange_return
+
+#Adding these two labels for status screen purposes, hoping this tracks with how you imagined the story Shiron. - Nyxondra
+
+
 label redemchapter1: 
 
 m "I saw Bryce escorting Maverick away from the crime scene and wondered if there was a way to prove to him that I wasn’t working with Reza. "
@@ -30,7 +43,7 @@ menu:
     "[[Say nothing.]":
 
         $ maverick_redem_sendmessage = False
-
+        
         jump redemchapter1_end 
 
 menu:
@@ -64,6 +77,7 @@ menu:
                 m "Bryce looked at Sebastian and me when I returned to him but didn’t say anything. In the distance I could still hear Maverick’s angry voice."
 
                 $ maverick_redem_sendmessage = False
+                
 
                 jump redemchapter1_end
 
@@ -96,6 +110,8 @@ menu:
                             $ maverick_redem_maverickromance = False
 
                             $ maverick_redem_sendmessage = True
+                            
+                            $ maverickstatus = "bad"
 
                             jump redemchapter1_end 
 
@@ -118,7 +134,7 @@ menu:
                             m "Bryce looked at Sebastian and me when I returned to him but didn’t say anything. In the distance I could still hear Maverick’s angry voice."
 
                             $ maverick_redem_sendmessage = False
-
+                            
                             jump redemchapter1_end 
 
 label redem_call1:
