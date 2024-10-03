@@ -108,6 +108,11 @@ init python:
     maverick_redem_drink = None
     maverick_redem_rezasearch = 0
     maverick_redem_scenesfinished = 0
+    maverickdead = False
+    maverickstatus = None
+    maverickscenesfinished = 0
+    redemadine4unplayed = False
+
 
     #adding the name of the romance partner for [maverick_redem_romance_partner]
     maverick_redem_romance_partner = None
