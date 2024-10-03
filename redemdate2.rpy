@@ -779,36 +779,8 @@ m "That was the last entry and I had the weird feeling that, by the end of this 
 
 stop music fadeout 2.0
 
-$ maverick_redem_scenesfinished += 1
+$ maverickscenesfinished += 1
+
+$ maverickstatus = "neutral"
 
 jump ml_date_end
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
