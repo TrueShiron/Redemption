@@ -87,6 +87,8 @@ menu:
 
         $ maverick_redem_trust = True
 
+        $ persistent.maverickmet = True
+
 
     "[[Trust Bryce.]":
 
@@ -113,6 +115,8 @@ menu:
         show maverick normal flip at Position(xpos = 0.1) with dissolve
 
         m "It felt as if reality around me had changed. I couldn't explain what happened but it wouldn't stop me from my mission."
+
+        $ persistent.maverickmet = False
 
         $ maverick_redem_trust = False
 
