@@ -840,7 +840,7 @@ window show
 
 n "I once again failed my mission but at least I was able to save Maverick and the dragons in this timeline."
 
-n "I knew that, as long as Izumi was able to travel back in time, there was still a chance for a better outcome. Izumi never cared for mankind and we already had disagreements in a previous timelines."
+n "I knew that, as long as Izumi was able to travel back in time, there was still a chance for a better outcome. Izumi never cared for mankind and we already had disagreements in a previous timeline."
 
 n "However just like there were subtle differences in each version of me, I also noticed subtle differences about her other than the color of her hair."
 
