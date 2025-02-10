@@ -1107,7 +1107,7 @@ play music "mx/fragments.ogg" fadein 2.0
 
 m "When I closed the door to my apartment I went straight to the kitchen to get some whiskey. Having just survived one of the worst days of my life and losing a friend were only fitting for my shitty life."
 
-m "Ever since the day Miles decided to take those drugs, my life only got worse. I ended up losing my Miles, my relationship with Anna and now also [player_name]. I just couldn’t protect those I care about."
+m "Ever since the day Miles decided to take those drugs, my life only got worse. I ended up losing Miles, my relationship with Anna and now also [player_name]. I just couldn’t protect those I care about."
 
 m "I was about to open the bottle when I heard a sound behind me."
 
