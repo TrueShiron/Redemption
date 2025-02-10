@@ -965,7 +965,7 @@ if naomiscenesfinished != 4:
 
     c "Goodbye Naomi."
 
-    Nm  "Goodbye you two"
+    Nm  "Goodbye you two."
 
     play sound "fx/flapx.ogg"
 
