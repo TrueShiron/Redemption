@@ -407,7 +407,7 @@ Mv "Could you watch over our food for a few minutes? Need to get all that blood 
 
 c "Sure, no problem."
 
-show maverick normal with dissolve
+show maverick normal c with dissolve
 
 $ renpy.pause (0.5)
 
@@ -733,9 +733,9 @@ if maverick_redem_annaromance == True:
 
     Mv "Your feelings are only dragon… or human in your case. It’s true that the death of someone always is a tragedy but if it’s someone close to us, then it’s even worse."
 
-    Mv "We aren’t machines that only work on logic but sentient being with feeling." 
+    Mv "We aren’t machines that only work on logic but sentient beings with feelings." 
 
-    Mv "Being relieved that someone you love escaped death is natural and the fact that you feel guilty because you were relieved despite someone else being dead only proofs that you have a good heart."
+    Mv "Being relieved that someone you love escaped death is natural and the fact that you feel guilty because you were relieved despite someone else being dead only proves that you have a good heart."
 
     Mv "So don’t think of yourself as being like Reza. He chose to murder innocent people despite never being in danger. Even if I would have arrested you both that night, neither of you would have been in danger. "
 
