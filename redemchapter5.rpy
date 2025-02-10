@@ -964,7 +964,7 @@ c "Maverick, my PDA has all the information about the comet I was able to gather
 
 Mv "I remember but why are you telling me that? Did something happen?"
 
-c "The explosion caused damage facility and its connections to the water pockets. I’m not sure if I can make it out on my own."
+c "The explosion caused damage to the facility and its connections to the water pockets. I’m not sure if I can make it out on my own."
 
 Mv reshock flip "Damn it, don’t give up. I’ll free you. "
 
@@ -1535,7 +1535,7 @@ m "I hurried to the other room, quickly grabbed the first aid kit and ran back t
 
 m "We both knew that there was nothing I or anyone else could do to save him. Nevertheless, I didn’t want to give up and pressed the panic button on my phone."
 
-Mv "Maverick had shown me how it works, so I was sure that Bryce would soon appear with a medical team here. We just needed some more time…"
+m "Maverick had shown me how it works, so I was sure that Bryce would soon appear with a medical team here. We just needed some more time…"
 
 Mv "I don’t think that there is anything you can do anymore. I have been in the force long enough to know that my wounds are too bad."
 
@@ -1609,7 +1609,7 @@ n "With some help from Bryce and leaked information about Anna’s condition, I 
 
 n "Despite some light punishment, Anna was allowed to work on the human cancer cure and soon she was able to develop a new version for the dragons. "
 
-n "As for me, I made my way to the portal, knowing that I had a mission to finish. This time I had to make sure that we all would get out happy ending."
+n "As for me, I made my way to the portal, knowing that I had a mission to finish. This time I had to make sure that we all would get our happy ending."
 
 window hide
 nvl clear
