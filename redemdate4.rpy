@@ -922,7 +922,7 @@ if maverick_redem_maverickromance == True:
 
             m "It was adorable to see the usual tough dragon acting shy but it was only one more reason for me to love him."
 
-            c "I never knew you where this bold, Mav. "
+            c "I never knew you were this bold, Mav. "
 
             Mv "Is that a yes?"
 
