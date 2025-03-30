@@ -36,7 +36,7 @@ Mv angry flip "I am NOT going soft."
 
 Mv normal flip "You’re just being a better partner when you’re rested and don’t overwork yourself."
 
-Mv resideeye flip "Especially after everything we learned so far. We can't change things that were beyond our control."
+Mv resideeye flip "Especially after everything we learned so far. You need to learn that we can't change things that were beyond our control."
 
 Mv normal flip "Now shut up and drink your beer."
 
