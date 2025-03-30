@@ -30,17 +30,17 @@ Mv "You mean without Reza. As far as I know, you’ve done more than anyone else
 
 m "Having Maverick of all dragons to care for me left me speechless. It was true that we met a few times but I didn't think that he would consider me a friend until we finally caught Reza. Without even realizing I said what was on my mind."
  
-c "If I wouldn’t know better I’d say that you’re going soft."
+c "If I wouldn’t know any better I’d say that you’re going soft."
 
-Mv angry flip "I am NOT going soft."
+Mv angry flip "I am {i}Not{/i} going soft."
 
 Mv normal flip "You’re just being a better partner when you’re rested and don’t overwork yourself."
 
-Mv resideeye flip "Especially after everything we learned so far. You need to learn that we can't change things that were beyond our control."
+Mv resideeye flip "Especially after everything we learned so far. You need to learn that we can't change things that are beyond our control."
 
 Mv normal flip "Now shut up and drink your beer."
 
-m "With a silent smile I took a sip from the beer while Maverick tried his best to keep a neutral look."
+m "I gave him a silent smile and took a sip while Maverick tried his best to keep a neutral look."
 
 m "Deciding to not tease Maverick any further even after he called me partner, I opted to change the topic."
 
