@@ -211,7 +211,7 @@ if blood == False:
 
     m "Anna had an unreadable expression and tried to avoid my gaze. It gave me a bad feeling but I had faith in Anna’s abilities."
 
-    An normal b "You know, blood transfusion between different species usually wouldn’t work, even with the method I used. So far, you body accepted the blood without any problematic complications but we need to keep an eye on you for any possible reactions from your body."
+    An normal b "You know, blood transfusion between different species usually wouldn’t work, even with the method I used. So far, your body accepted the blood without any problematic complications but we need to keep an eye on you for any possible reactions from your body."
 
     m "While Anna didn’t understand how this was possible, I knew how Izumi created and modified the dragons. However, even with this knowledge it was surprising to realize how similar our two species were and that, with some modifications, even a blood transfusion seemed to be possible."
 
