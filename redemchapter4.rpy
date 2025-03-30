@@ -1,7 +1,5 @@
 label redemchapter4:
 
-Sb "The chief will explain everything once we get there. Let's not keep him waiting, shall we?"
-
 stop music fadeout 2.0
 
 play sound "fx/steps/clean2.wav"
@@ -209,7 +207,7 @@ menu:
 
         Mv "So you think this was the map Reza was searching for? "
 
-        c "I’m not sure but you said it yourself; if he’s not able to stay within the town, he has to stay live in the wilderness or in a hole in the ground. "
+        c "I’m not sure but you said it yourself; if he’s not able to stay within the town, he has to stay in the wilderness or in a hole in the ground. "
 
         m "I pointed at the second entrance."
 
