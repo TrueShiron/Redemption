@@ -1004,7 +1004,7 @@ m "Then I heard him leave. It didn’t take long for the walls to break, releasi
 
 m "I once again failed my mission but at least I was able to save Maverick and the dragons in this timeline."
 
-m "I knew that, as long as Izumi was able to travel back in time, there was still a chance for a better outcome. Izumi never cared for mankind and we already had disagreements in a previous timelines."
+m "I knew that, as long as Izumi was able to travel back in time, there was still a chance for a better outcome. Izumi never cared for mankind and we already had disagreements in a previous timeline."
 
 m "However just like there were subtle differences in each version of me, I also noticed subtle differences about her other than the color of her hair. I could only hope that this version of Izumi was willing to give mankind another chance."
 
