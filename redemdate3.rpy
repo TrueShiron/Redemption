@@ -984,11 +984,11 @@ c "Thank you for the offer, Maverick. I’ll think about it."
 
 Mv rehappy flip "That’s what I hoped to hear."
 
-Mv "By the way, since we're all working on the case and Bryce figured out that we're working together, he wanted me to give you this."
+Mv "By the way, after you called me earlier today Sebastian came by and wanted me to give you this."
 
 m "Maverick handed me something that reminded me of the old mobile phones we had long before our PDAs."
 
-Mv "It's an older version but the best he was able to get that fast."
+Mv "Bryce wanted Seb to give you this since you’re helping with the case. It's an older version but the best he was able to get that fast."
 
 Mv "In an emergency we dragons can call for back-up by just roaring but I don't think it'd work for you. So instead we thought this phone would help if you're ever in danger and none of us is around."
 
