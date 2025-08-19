@@ -1396,7 +1396,7 @@ elif maverick_redem_naomiromance == True:
 
     Nm "Despite the missing pages, it showed us that he is suffering from the past trauma of losing his world and his partner."
 
-    Nm "It won’t help us to find him. but if he shows up… you have to be on your guard."
+    Nm "It won’t help us to find him but if he shows up… you have to be on your guard."
 
     c "He still has his gun so it’s likely that he plans to resist."
 
